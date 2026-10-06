@@ -1,0 +1,30 @@
+{
+  "name": "infinity",
+  "version": "1.0.0",
+  "description": "AI-assisted UI automation framework: app memory + plain-English test cases → Playwright tests, with a human approval gate at every step and no runtime healing.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitesh-qain/infinity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nitesh-qain/infinity/issues"
+  },
+  "homepage": "https://github.com/nitesh-qain/infinity#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.5",
+    "typescript": "^7.0.2"
+  }
+}
